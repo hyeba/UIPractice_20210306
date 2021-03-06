@@ -53,11 +53,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="연락처"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:hint="전화번호 입력"
         android:inputType="phone"/>
 
@@ -75,11 +77,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="추천인"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:hint="추천인 닉네임 입력"
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
@@ -118,6 +122,11 @@
         android:text="이용 약관에 동의합니다"
         android:checked="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -125,14 +134,14 @@
 
         <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:layout_height="wrap_content"
             android:text="이전으로"/>
 
 
         <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:layout_height="wrap_content"
             android:text="회원가입 하기"/>
 
